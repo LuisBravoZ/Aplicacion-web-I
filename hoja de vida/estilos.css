@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(207, 207, 207);
+}
+section{
+    height: 150vh;
+    border-radius: 10%;
+    border: 3px solid black;
+    
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+section#info{
+    height: 70vh;
+    background-color: rgb(201, 198, 198);
+    display: flex;
+ /*  flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+ 
+}
+header a {
+   
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: normal; /* Establece el peso de la fuente como normal */
+    color: #000; /* Establece el color del texto (puedes cambiarlo según tus preferencias) */
+}
+header a:hover{
+   color:aqua;
+}
+/* Estilo para la sección */
+#info {
+    position: relative;
+    background-color: #f0f0f0; /* Color de fondo de la sección */
+    /*padding: 20px; /* Espacio interno de la sección */
+   /*margin-top: 20px; /* Espacio superior de la sección */
+   
+}
+section#info div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+/* Estilo para el contenido de la sección */
+.proyect-detail-info {
+    float: left; /* Alinea la imagen a la izquierda */
+    /*margin-right: 0px; /* Espacio entre la imagen y el texto */
+   
+}
+
+/* Estilo para el texto de la sección */
+#info h2 {
+    font-size: 24px; /* Tamaño de fuente para el título */
+}
+
+/* Estilo para los títulos y contenido de la información personal */
+#info h3 {
+    font-size: 25px; /* Tamaño de fuente para los títulos */
+    margin-top: 10px; /* Espacio superior entre los títulos y el contenido */
+}
+
+#info p {
+    margin-bottom: 5px; /* Espacio inferior entre los párrafos */
+}
+
+.proyect-detail-info{
+   /* border: 5px solid rgb(110, 90, 90);*/
+    width: 300px;
+    margin: 15px;
+}
+.proyect-detail-info img{
+    display: flex;
+    height: 200PX ;
+    width:  300PX;
+    border-radius: 15%;
+    
+}
+
+.proyect-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.proyect-detail{
+    /*border: 2px solid rgb(110, 90, 90);*/
+    width: 600px;
+    border-radius: 15%;
+    margin: 20px;;
+}
+
+
+section#detalle{
+    background-color: rgb(201, 158, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#contact{
+    background-color: rgba(211, 211, 211, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(201, 158, 158);
+    padding: 10px;
+    border-radius: 5%;
+    border: 3px solid #000;
+}
+
+
+footer{
+    background-color: rgb(201, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    border-radius: 20%;
+    border: 3px solid #000;
+    
+}
+footer a{
+    list-style: none;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: normal; /* Establece el peso de la fuente como normal */
+    color: #0f0f0f; /* Establece el color del texto */
+}
+footer div{
+    display: flex;
+   
+   
+} footer div img{
+    margin: 20px;
+    border-radius: 50%;
+}
+
+
+
+/* Estilo para la tabla */
+.TABLA-REFERENCIA {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: separate; /* Colapso de bordes separado */
+    border-spacing: 10px; /* Espacio entre las columnas */
+}
+
+/* Estilo para las celdas de la tabla */
+.TABLA-REFERENCIA th,
+.TABLA-REFERENCIA td {
+    padding: 8px; /* Espacio interno en las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para la primera fila (encabezados) */
+.TABLA-REFERENCIA tr:first-child {
+    font-weight: bold; /* Establece el peso de la fuente en negrita para la primera fila */
+    /*background-color: #f0f0f0; */ }
+
+
+/* Estilo para la tabla */
+.verticallinea {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: separate; /* Colapso de bordes separado */
+    border-spacing: 10px; /* Espacio entre las columnas */
+}
+
+/* Estilo para las celdas de la tabla */
+.verticallinea th,
+.verticallinea td {
+    padding: 8px; /* Espacio interno en las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para la primera fila (encabezados) */
+.verticallinea tr:first-child {
+    font-weight: bold; /* Establece el peso de la fuente en negrita para la primera fila */
+    /*background-color: #f0f0f0;  */
+}
+
+/* Estilo para el contenedor de capacitaciones */
+.proyect-detail {
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para el título de capacitaciones */
+.proyect-detail h3 {
+    font-size: 18px; /* Tamaño de fuente */
+   /* background-color: #f0f0f0; /* Color de fondo para la primera fila (puedes cambiarlo según tus preferencias) */
+
+    font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+/* Estilo para el párrafo de texto */
+.proyect-detail .texto {
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilo para la lista no ordenada */
+.proyect-detail ul {
+    list-style-type: square; /* Tipo de marcador (puedes cambiarlo) */
+    margin-left: 20px; /* Margen izquierdo para la lista */
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilo para los elementos de la lista */
+.proyect-detail li {
+    margin-bottom: 5px; /* Espacio inferior entre elementos de la lista */
+}
+/* Estilo para las secciones */
+#detalle {
+   /* background-color: #f0f0f0; /* Color de fondo de la sección */
+    padding: 20px; /* Espacio interno de la sección */
+    margin-top: 0px; /* Espacio superior de la sección */
+    overflow: hidden; /* Limpia el float interno */
+}
+
+/* Estilo para los contenedores de cada sección */
+.proyect-detail {
+    background-color: #ccc; /* Color de fondo plomo */
+    padding: 20px; /* Espacio interno de los contenedores */
+    margin: 20px 0; /* Margen vertical entre los contenedores */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el contenido de la tabla */
+.verticallinea {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+/* Estilo para las celdas de la tabla */
+.verticallinea th,
+.verticallinea td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para la primera fila (encabezados) */
+.verticallinea tr:first-child {
+    font-weight: bold;
+   /* background-color: #f0f0f0;*/
+}
+
+/* Estilo para el texto de la sección de capacitaciones */
+.proyect-detail h3 {
+    font-size: 18px;
+}
+
+/* Estilo para los párrafos de texto */
+.proyect-detail p {
+    font-size: 14px;
+}
+
+/* Estilo para los elementos de la lista */
+.proyect-detail ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.proyect-detail li {
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos <th> dentro de la tabla */
+.TABLA-REFERENCIA th {
+    font-weight: normal; /* Establece el peso de la fuente en normal (no negrita) */
+}
+
+/* Estilo para quitar los puntos de la lista desordenada */
+ul {
+    list-style-type: none;
+}
