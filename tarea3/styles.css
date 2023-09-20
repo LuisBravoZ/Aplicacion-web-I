@@ -1,0 +1,76 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+
+    background-image: url('images/fondo.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Para que la imagen de fondo cubra todo el cuerpo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+h1 {
+    position: relative;
+    color: #2c7ace;
+    text-align: center; /* Centrar el texto horizontalmente */
+   padding: 20px; /* Añadir espacio alrededor del título */
+    background-color: rgba(240, 240, 240, 0); /* Color de fondo */
+    border: 2px solid #33333300; /* Borde */
+    border-radius: 10px; /* Radio del borde */
+}
+
+section#from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Ajusta la altura de la sección según tu preferencia */
+    background-color: rgba(255, 255, 255, 0); /* Fondo semitransparente */
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir la sección */
+    background-position: center center; /* Centra la imagen de fondo */
+}
+
+.cuerpo-from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border: 2px solid #333;
+    
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Estilos para el botón de enviar */
+.boton{
+    background-color: #007bff00; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    background-color: #007BFF; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Radio del borde */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease-in-out; /* Efecto de transición en el color de fondo */
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor sobre el botón */
+}
+h1:hover{
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+
+
+label{
+    padding: 5px;
+}
